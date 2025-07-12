@@ -22,8 +22,7 @@ A console log is sent to the client's browser and executed to show the queue len
 ## Hire Me
 
 - [Consulting and training for Cloudflare and Zaraz](https://tricitiesmediagroup.com/contact)
-- [X](https://x.com/mackenlyjones)
-- [LinkedIn](https://www.linkedin.com/in/mackenly/)
+- [Resume](https://mackenly.com/), [X](https://x.com/mackenlyjones), [LinkedIn](https://www.linkedin.com/in/mackenly/)
 
 ## 📝 License
 
