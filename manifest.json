@@ -1,0 +1,7 @@
+{
+  "name": "MC Bindings",
+  "namespace": "mc-bindings",
+  "description": "A Managed Component to demo Workers bindings",
+  "icon": "assets/icon.svg",
+  "permissions": {}
+}

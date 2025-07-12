@@ -1,0 +1,14 @@
+name = "custom-mc-bindings-demo"
+main = "src/index.ts"
+compatibility_date = "2025-07-12"
+
+[observability]
+enabled = true
+
+[[durable_objects.bindings]]
+name = "LOGGER_QUEUE"
+class_name = "LoggerQueue"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["LoggerQueue"]

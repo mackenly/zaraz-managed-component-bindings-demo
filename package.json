@@ -1,0 +1,29 @@
+{
+  "name": "mc-bindings",
+  "version": "1.0.0",
+  "description": "A Managed Component to demo Workers bindings",
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "node esbuild.js",
+    "build": "npm run test && npm run typecheck && npm run bundle",
+    "typecheck": "tsc --project tsconfig.build.json --noEmit",
+    "test": "vitest run --globals",
+    "test:dev": "vitest --globals",
+    "typegen": "wrangler types"
+  },
+  "keywords": [
+    "managed-components",
+    "mc-bindings"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@managed-components/types": "^1.3.15",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "esbuild": "^0.20.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "vitest": "^1.3.1",
+    "wrangler": "^4.24.3"
+  }
+}
